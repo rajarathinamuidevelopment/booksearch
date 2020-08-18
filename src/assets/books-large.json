@@ -1,0 +1,432 @@
+{
+    "data":[
+        {
+          "title": "Hemingway's Adventures of a Young Man",
+          "author": "Ernest Hemingway",
+          "published": 1920,
+          "category": "Stories",
+          "price": "23"
+        },
+        {
+          "title": "The Shining",
+          "author": "Stephen King",
+          "published": 1977,
+          "category": "Novel",
+          "price": "29"
+        },
+        {
+          "title": "The Moderns",
+          "author": "Ernest Hemingway",
+          "published": 1964,
+          "category": "Memoir",
+          "price": "84"
+        },
+        {
+          "title": "Old Gringo",
+          "author": "Carlos Fuentes",
+          "published": 1985,
+          "category": "Novel",
+          "price": "87"
+        },
+        {
+          "title": "Naked Lunch",
+          "author": "William S. Burroughs",
+          "published": 1959,
+          "category": "Novel",
+          "price": "45"
+        },
+        {
+          "title": "Hammett",
+          "author": "Joe Gores",
+          "published": 1975,
+          "category": "Novel",
+          "price": "55"
+        },
+        {
+          "title": "In Love and War",
+          "author": "Henry S. Villard & James Nagel (editors)",
+          "published": 1989,
+          "category": "Diary",
+          "price": "15"
+        },
+        {
+          "title": "Hamsun",
+          "author": "Thorkild Hansen",
+          "published": 1978,
+          "category": "Non-fiction",
+          "price": "71"
+        },
+        {
+          "title": "",
+          "author": "Marie Hamsun",
+          "published": 1953,
+          "category": "Autobiography",
+          "price": "24"
+        },
+        {
+          "title": "Misery",
+          "author": "Stephen King",
+          "published": 1987,
+          "category": "Novel",
+          "price": "85"
+        },
+        {
+          "title": "Secret Window",
+          "author": "Stephen King",
+          "published": 1990,
+          "category": "Novella",
+          "price": "42"
+        },
+        {
+          "title": "Capote",
+          "author": "Gerald Clarke",
+          "published": 1995,
+          "category": "Biography",
+          "price": "84"
+        },
+        {
+          "title": "Infamous",
+          "author": "George Plimpton",
+          "published": 1997,
+          "category": "Biography",
+          "price": "63"
+        },
+        {
+          "title": "Miss Potter",
+          "author": "Beatrix Potter",
+          "published": 1901,
+          "category": "Children",
+          "price": "15"
+        },
+        {
+          "title": "Daphne *",
+          "author": "Margaret Forster",
+          "published": 1993,
+          "category": "Biography",
+          "price": "51"
+        },
+        {
+          "title": "The Hours",
+          "author": "Michael Cunningham",
+          "published": 1998,
+          "category": "Novel",
+          "price": "19"
+        },
+        {
+          "title": "Moulin Rouge",
+          "author": "Pierre La Mure",
+          "published": 1950,
+          "category": "Novel",
+          "price": "72"
+        },
+        {
+          "title": "Lust for Life",
+          "author": "Irving Stone",
+          "published": 1934,
+          "category": "Novel",
+          "price": "90"
+        },
+        {
+          "title": "The Agony and the Ecstasy",
+          "author": "Irving Stone",
+          "published": 1961,
+          "category": "Novel",
+          "price": "33"
+        },
+        {
+          "title": "Pollock",
+          "author": "Steven Naifeh & Gregory White Smith",
+          "published": 1989,
+          "category": "Biography",
+          "price": "71"
+        },
+        {
+          "title": "Frida",
+          "author": "Hayden Herrera",
+          "published": 1983,
+          "category": "Biography",
+          "price": "34"
+        },
+        {
+          "title": "Girl with a Pearl Earring",
+          "author": "Tracy Chevalier",
+          "published": 1999,
+          "category": "Novel",
+          "price": "74"
+        },
+        {
+          "title": "Carrington",
+          "author": "Michael Holroyd",
+          "published": 1994,
+          "category": "Biography",
+          "price": "93"
+        },
+        {
+          "title": "Goya – oder der arge Weg der Erkenntnis",
+          "author": "Lion Feuchtwanger",
+          "published": 1951,
+          "category": "Novel",
+          "price": "69"
+        },
+        {
+          "title": "Bound for Glory",
+          "author": "Woody Guthrie",
+          "published": 1943,
+          "category": "Autobiography",
+          "price": "51"
+        },
+        {
+          "title": "The Buddy Holly Story",
+          "author": "John Goldrosen",
+          "published": 1977,
+          "category": "Non-fiction",
+          "price": "84"
+        },
+        {
+          "title": "Great Balls of Fire!",
+          "author": "Myra Lewis with Murray M. Silver",
+          "published": 1972,
+          "category": "Autobiography",
+          "price": "90"
+        },
+        {
+          "title": "The Doors",
+          "author": "Jerry Hopkins & Danny Sugerman (both uncredited)",
+          "published": 1980,
+          "category": "Non-fiction",
+          "price": "73"
+        },
+        {
+          "title": "Whale Music",
+          "author": "Paul Quarrington",
+          "published": 1989,
+          "category": "Novel",
+          "price": "78"
+        },
+        {
+          "title": "Stoned",
+          "author": "Anna Wohlin",
+          "published": 1984,
+          "category": "Non-fiction",
+          "price": "65"
+        },
+        {
+          "title": "Walk the Line",
+          "author": "Johnny Cash with Patrick Carr",
+          "published": 1997,
+          "category": "Autobiography",
+          "price": "22"
+        },
+        {
+          "title": "Amazing Grace",
+          "author": "John Newton",
+          "published": 1779,
+          "category": "Hymn",
+          "price": "21"
+        },
+        {
+          "title": "The Mambo Kings",
+          "author": "Oscar Hijuelos",
+          "published": 1989,
+          "category": "Novel",
+          "price": "13"
+        },
+        {
+          "title": "Crazy Heart",
+          "author": "Thomas Cobb",
+          "published": 1987,
+          "category": "Novel",
+          "price": "15"
+        },
+        {
+          "title": "The Lion the Witch and the Wardrobe",
+          "author": "C. S. Lewis",
+          "published": 1950,
+          "category": "Fantasy",
+          "price": "15"
+        },
+        {
+          "title": "She: A History of Adventure",
+          "author": "H. Rider Haggard",
+          "published": 1887,
+          "category": "adventure",
+          "price": "88"
+        },
+        {
+          "title": "The Adventures of Pinocchio (Le avventure di Pinocchio)",
+          "author": "Carlo Collodi",
+          "published": 1881,
+          "category": "Fantasy",
+          "price": "43"
+        },
+        {
+          "title": "The Da Vinci Code",
+          "author": "Dan Brown",
+          "published": 2003,
+          "category": "mystery thriller",
+          "price": "99"
+        },
+        {
+          "title": "Harry Potter and the Chamber of Secrets",
+          "author": "J. K. Rowling",
+          "published": 1998,
+          "category": "Fantasy",
+          "price": "40"
+        },
+        {
+          "title": "Harry Potter and the Prisoner of Azkaban",
+          "author": "J. K. Rowling",
+          "published": 1999,
+          "category": "Fantasy",
+          "price": "69"
+        },
+        {
+          "title": "Harry Potter and the Goblet of Fire",
+          "author": "J. K. Rowling",
+          "published": 2000,
+          "category": "Fantasy",
+          "price": "62"
+        },
+        {
+          "title": "Harry Potter and the Order of the Phoenix",
+          "author": "J. K. Rowling",
+          "published": 2003,
+          "category": "Fantasy",
+          "price": "92"
+        },
+        {
+          "title": "Harry Potter and the Half-Blood Prince",
+          "author": "J. K. Rowling",
+          "published": 2005,
+          "category": "Fantasy",
+          "price": "100"
+        },
+        {
+          "title": "Harry Potter and the Deathly Hallows",
+          "author": "J. K. Rowling",
+          "published": 2007,
+          "category": "Fantasy",
+          "price": "27"
+        },
+        {
+          "title": "The Alchemist (O Alquimista)",
+          "author": "Paulo Coelho",
+          "published": 1988,
+          "category": "Fantasy",
+          "price": "96"
+        },
+        {
+          "title": "The Catcher in the Rye",
+          "author": "J. D. Salinger",
+          "published": 1951,
+          "category": "coming-of-age",
+          "price": "41"
+        },
+        {
+          "title": "The Bridges of Madison County",
+          "author": "Robert James Waller",
+          "published": 1992,
+          "category": "romance",
+          "price": "52"
+        },
+        {
+          "title": "Ben-Hur: A Tale of the Christ",
+          "author": "Lew Wallace",
+          "published": 1880,
+          "category": "historical",
+          "price": "64"
+        },
+        {
+          "title": "You Can Heal Your Life",
+          "author": "Louise Hay",
+          "published": 1984,
+          "category": "self-improvement",
+          "price": "98"
+        },
+        {
+          "title": "One Hundred Years of Solitude (Cien años de soledad)",
+          "author": "Gabriel García Márquez",
+          "published": 1967,
+          "category": "magic realism",
+          "price": "11"
+        },
+        {
+          "title": "Lolita",
+          "author": "Vladimir Nabokov",
+          "published": 1955,
+          "category": "general",
+          "price": "57"
+        },
+        {
+          "title": "Heidi",
+          "author": "Johanna Spyri",
+          "published": 1880,
+          "category": "children's fiction",
+          "price": "39"
+        },
+        {
+          "title": "The Common Sense Book of Baby and Child Care",
+          "author": "Dr. Benjamin Spock",
+          "published": 1946,
+          "category": "manual",
+          "price": "66"
+        },
+        {
+          "title": "Anne of Green Gables",
+          "author": "Lucy Maud Montgomery",
+          "published": 1908,
+          "category": "general",
+          "price": "28"
+        },
+        {
+          "title": "Black Beauty",
+          "author": "Anna Sewell",
+          "published": 1877,
+          "category": "children's literature",
+          "price": "25"
+        },
+        {
+          "title": "The Name of the Rose (Il Nome della Rosa)",
+          "author": "Umberto Eco",
+          "published": 1980,
+          "category": "historical novel",
+          "price": " mystery",
+          "FIELD6": 93
+        },
+        {
+          "title": "The Eagle Has Landed",
+          "author": "Jack Higgins",
+          "published": 1975,
+          "category": "thriller",
+          "price": "87"
+        },
+        {
+          "title": "Watership Down",
+          "author": "Richard Adams",
+          "published": 1972,
+          "category": "Fantasy",
+          "price": "33"
+        },
+        {
+          "title": "The Hite Report",
+          "author": "Shere Hite",
+          "published": 1976,
+          "category": "Fantasy",
+          "price": "70"
+        },
+        {
+          "title": "Charlotte's Web",
+          "author": "E.B. White; illustrated by Garth Williams",
+          "published": 1952,
+          "category": "Fantasy",
+          "price": "30"
+        },
+        {
+          "title": "The Ginger Man",
+          "author": "J. P. Donleavy",
+          "published": 1955,
+          "category": "Fantasy",
+          "price": "43"
+        }
+       ]
+}

@@ -1,0 +1,66 @@
+
+<p-messages></p-messages>
+<p-dataView #dv [value]="books" [paginator]="true" [rows]="10" paginatorPosition="bottom"  
+[showCurrentPageReport]="true" [rowsPerPageOptions]="[10,25,50]" filterBy="author"
+currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+    [sortField]="sortField" [sortOrder]="sortOrder">
+    <p-header>
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-2 p-md-2">
+                    <p-dropdown [options]="sortOptions" [(ngModel)]="sortKey" placeholder="Sort By" (onChange)="onSortChange($event)" [style]="{'min-width':'140px'}"></p-dropdown>
+                </div>
+                <div class="p-col-2 p-md-2 filter-container">
+                    <div style="position:relative">
+                        <input type="search" [(ngModel)]="searchData" pInputText placeholder="Search by Author" (input)="dv.filter($event.target.value)">
+                    </div>
+                </div>
+                <div class="p-col-2 p-md-2">
+                    <button *ngIf="clearFilterbtn" pButton pRipple type="button" label="Clear Filter" class="p-button-outlined p-button-danger" (click)="handleClickClearFilter($event)"></button>
+                </div>
+                <div class="p-col-8 p-md-6" style="text-align:right">
+                    <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
+                </div>
+            </div>
+        </div>
+    </p-header>
+    
+    <ng-template let-book pTemplate="listItem">
+        <div  class="p-col-12 ng-star-inserted">
+            <div  class="product-list-item">
+                <img  src="assets/img/books.jpg" alt="{{book.title}}">
+                <div  class="product-list-detail">
+                    <div  class="product-name">{{book.title}}</div>
+                    <div  class="product-description text-strong">Published by <span class="class-highlighter">{{book.author}}</span> on <span class="class-highlighter">{{book.published}}</span></div>
+                    <i  class="pi pi-tag product-category-icon"></i><span  class="product-category">{{book.category}}</span>
+                </div>
+                <div  class="product-list-action">
+                    <span  class="product-price">${{book.price}}</span>
+                    <p-button  icon="pi pi-shopping-cart" label="Buy"></p-button>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+    <ng-template let-book pTemplate="gridItem">
+        <div class="p-col-12 p-md-3 ng-star-inserted">
+            <div class="product-grid-item card"  style="padding:15px">
+                <div class="product-grid-item-top">
+                    <div _ngcontent-deu-c20="">
+                        <i class="pi pi-tag product-category-icon"></i>
+                        <span class="product-category">{{book.category}}</span>
+                    </div>
+                </div>
+                <div class="product-grid-item-content">
+                    <img  src="assets/img/books.jpg" alt="{{book.title}}">
+                    <div class="product-name ellipsis-text">{{book.title}}</div>
+                    <div  class="product-description text-strong">Published by <span class="class-highlighter">{{book.author}}</span> on <span class="class-highlighter">{{book.published}}</span></div>
+                    <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                </div>
+                <div class="product-grid-item-bottom">
+                    <span class="product-price">${{book.price}}</span>
+                    <p-button icon="pi pi-shopping-cart"></p-button>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</p-dataView>

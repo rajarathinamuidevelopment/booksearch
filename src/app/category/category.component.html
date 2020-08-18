@@ -1,0 +1,4 @@
+<p-messages></p-messages>
+<p-tree [value]="category" selectionMode="checkbox" [(selection)]="selectedcategory"
+(onNodeSelect)="nodeSelect($event)" (onNodeUnselect)="nodeUnselect($event)"></p-tree>
+<button pButton type="button" [disabled] = "!searchEnable" class="m-top" label="Submit Category Search" (click)="handleClick($event)"></button>
